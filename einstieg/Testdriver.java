@@ -39,7 +39,7 @@ public class Testdriver {
         otto.setBonus(300.00);
         System.out.println("Version mit Überladung");
         for (Mitarbeiter mitarbeiter: mitarbeiterArray) {
-            System.out.println(mitarbeiter.getName() + "'s Entgelt inklusive Bonus: " + mitarbeiter.berechneEntgelt(0) + " €");
+            System.out.println(mitarbeiter.getName() + "'s Entgelt inklusive Bonus: " + mitarbeiter.berechneEntgelt(0) + " E");
         }
     }
 }
